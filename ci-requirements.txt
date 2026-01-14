@@ -11,3 +11,5 @@ tox>=4.8.0
 mypy==1.6.1
 pyopenssl
 psutil
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
